@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFEEFB;
+    color: rgb(30, 30, 30);
+    font-family: "PT Serif", serif;
+    font-size: 15px;
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #9B2208;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #550C18;
+}
+
+.card-white h2 {
+    margin: 0 0 20px 0;
+}
+
+.card-white p {
+    text-align: left;
+}
+
+header .card-white {
+    display: flex;
+    flex-direction: column;
+}
+
+header .card-white .card-secend-sec {
+    padding: 50px 0;
+}
+
+.card-first-sec h1 {
+    padding: 0 0 10px 0;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 4px solid #CFB1F2;
+    width: 200px;
+}
+
+.btn-purple {
+    background-color: #CFB1F2;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-purple:hover {
+    background-color: #C6E4ED;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(3, 123, 252);
+}
+
+.list-inline i:hover {
+    color: rebeccapurple;
+}
+
+@media(max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
